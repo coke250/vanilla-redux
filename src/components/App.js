@@ -6,7 +6,7 @@ import Home from '../routes/Home';
 function App() {
   return (
     <Router>
-      <Route path="/" component={Home}></Route>
+      <Route path="/" exact component={Home}></Route>
       <Route path="/:id" component={Detail}></Route>
     </Router>
   );
